@@ -1,0 +1,12 @@
+/* ==========================================================================
+   _config.scss
+
+   Configuration settings. Box-sizing, 
+   ========================================================================== */
+
+$global-box-sizing: border-box;
+
+$breakpoints: (
+  'tablet'  : ( min-width:  767px ),
+  'desktop' : ( min-width:  1025px ),
+);

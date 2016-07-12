@@ -1,0 +1,11 @@
+/* ==========================================================================
+   _base.scss
+
+   Only unclassed HTML elements.
+   ========================================================================== */
+
+* {
+  @if $global-box-sizing == 'border-box' { // $global-box-sizing set in settings/_config
+    box-sizing: border-box;
+  }
+}
